@@ -1,0 +1,186 @@
+///////////////////
+//THEME VARIABLES//
+///////////////////
+
+//use these as shortcuts or reminders of theme guidelines when filling out styles below
+
+$base-font-size: 18px;
+$font1: 'Open Sans';
+$font2: 'Dosis';
+$theme-color1: blue;
+$theme-color2: #4e4e4e;
+$theme-color3: gold;
+$theme-color4: white;
+
+
+//////////////////////////////////////////
+////////////////HEADER////////////////////
+//////////////////HEADER//////////////////
+////////////////////HEADER////////////////
+//////////////////////////////////////////
+$header-background: orange;
+$header-padding-top: 10px; // how much space between the logo and the top of the header
+$header-padding-bottom: 10px; // how much space between the logo and the bottom of the header
+$mobile-hamburger-button-color: #000;
+
+//main-menu
+$main-nav-link-font: $font1;
+$main-nav-link-color: $theme-color1;
+$main-nav-font-size: 20px;
+$main-nav-border-top: none;
+$main-nav-border-bottom: 2px solid transparent;
+$main-nav-border-left: none;
+$main-nav-border-right: none;
+//hover
+$main-nav-link-hover-text-color: $theme-color2;
+$main-nav-link-hover-background-color: transparent;
+$main-nav-link-hover-border-top: none;
+$main-nav-link-hover-border-bottom: 2px solid $theme-color2;
+$main-nav-link-hover-border-left: none;
+$main-nav-link-hover-border-right: none;
+//active (styles for current menu item)
+$main-nav-link-active-text-color: $theme-color1;
+$main-nav-link-active-background-color: $theme-color2;
+$main-nav-link-active-border-top: none;
+$main-nav-link-active-border-bottom: 2px solid transparent;
+$main-nav-link-active-border-left: none;
+$main-nav-link-active-border-right: none;
+
+//dropdown menu
+$dropdown-menu-background: white;
+$dropdown-menu-link-color: $theme-color1;
+$dropdown-menu-font-size: 16px;
+//hover
+$dropdown-menu-link-hover-color: $theme-color2;
+$dropdown-menu-link-hover-text-decoration: none; //either 'none' or 'underline'.
+$dropdown-menu-link-hover-background-color: $theme-color1;
+//active
+$dropdown-menu-link-active-color: $theme-color1;
+$dropdown-menu-link-active-text-decoration: none; //either 'none' or 'underline'.
+$dropdown-menu-link-active-background-color: $theme-color3;
+
+//header button
+$header-button-text-color: $theme-color3;
+$header-button-background-color: $theme-color2;
+$header-button-border-color: $theme-color3;
+$header-button-box-shadow: none; // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+//header button hover
+$header-button-hover-background-color: $theme-color3;
+$header-button-hover-text-color: $theme-color2;
+$header-button-hover-border-color: $theme-color3;
+
+
+///////////////////////////////////////////////////
+/////////////////SAMPLE STYLES/////////////////////
+///////////////////SAMPLE STYLES///////////////////
+/////////////////////SAMPLE STYLES/////////////////
+///////////////////////////////////////////////////
+
+//fonts
+$header-font: $font2;
+$main-text-font: $font1;
+$header1-font-weight: bold;
+$header2-font-weight: bold;
+$header3-font-weight: normal;
+$header4-font-weight: bold;
+
+//text-color
+$header1-color: $theme-color1;
+$header2-color: $theme-color1;
+$header3-color: $theme-color3;
+$header4-color: $theme-color1;
+$main-text-color: $theme-color2;
+$link-color: $theme-color3;
+$link-text-decoration: underline; // either 'underline' or 'none'.
+$link-hover-color: $theme-color2;
+$link-hover-decoration: underline; // either 'underline' or 'none'.
+$numbered-list-number-color: $theme-color3;
+$bulleted-list-bullet-color: $theme-color3;
+
+//button
+$button-font: $font2;
+$button-font-weight: normal;
+$button-text-color: $theme-color3;
+$button-text-transform: uppercase; //choose from 'uppercase', 'capitalize', 'lowercase', or 'none'.
+$button-background-color: $theme-color2;
+$button-padding: 10px 40px;
+$button-border-width: 2px;
+$button-border-color: $theme-color3;
+$button-border-radius: 5px;
+$button-box-shadow: 2px 2px 5px rgba(0,0,0,0.5); // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+//button hover
+$button-hover-background-color: $theme-color3;
+$button-hover-text-color: $theme-color2;
+$button-hover-border-color: $theme-color3;
+
+//misc
+$blockquote-text-color: $theme-color1;
+$blockquote-border-color: $theme-color3;
+
+
+////////////////////////////////////////
+////////////////HOME////////////////////
+//////////////////HOME//////////////////
+////////////////////HOME////////////////
+////////////////////////////////////////
+
+//slideshow
+$slide-text-background: $theme-color1;
+$slide-text-color: $theme-color3;
+//slideshow button
+$header-button-text-color: $theme-color3;
+$header-button-background-color: $theme-color2;
+$header-button-border-color: $theme-color3;
+$header-button-box-shadow: none; // https://www.w3schools.com/cssref/css3_pr_box-shadow.asp
+//slideshow button hover
+$header-button-hover-background-color: $theme-color3;
+$header-button-hover-text-color: $theme-color2;
+$header-button-hover-border-color: $theme-color3;
+
+//home columns
+$home-column-background-color: white;
+$home-column-border: 2px solid $theme-color1;
+$home-column-header-color: $theme-color1;
+$home-column-header-background: transparent;
+
+
+///////////////////////////////////////////
+////////////////SIDEBAR////////////////////
+//////////////////SIDEBAR//////////////////
+////////////////////SIDEBAR////////////////
+///////////////////////////////////////////
+$sidebar-header-color: $theme-color1;
+$sidebar-link-color: $theme-color2;
+$sidebar-link-hover-color: $theme-color2;
+$sidebar-link-hover-decoration: underline;
+
+
+
+//////////////////////////////////////////
+////////////////FOOTER////////////////////
+//////////////////FOOTER//////////////////
+////////////////////FOOTER////////////////
+//////////////////////////////////////////
+$footer-background-color: $theme-color3;
+$footer-border-top: 5px solid $theme-color2;
+$footer-header-color: $theme-color1;
+$footer-header-border-bottom: 2px solid $theme-color2;
+$footer-main-text-color: $theme-color1;
+$footer-link-hover-text-color: $theme-color1;
+$footer-link-hover-text-decoration: underline;
+
+
+
+///////////////////////////////////////////
+////////////////CONTACT////////////////////
+//////////////////CONTACT//////////////////
+////////////////////CONTACT////////////////
+///////////////////////////////////////////
+$google-maps-border: 4px solid $theme-color1;
+$form-border: 1px solid $theme-color1;
+
+
+
+
+
+
